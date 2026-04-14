@@ -5,9 +5,9 @@ const icen = document.getElementById("icen");
 playbtn.onclick = function() {
   if (song.paused) {
     song.play();
-    icen.innerHTML = "⏸️"; // Changes to Pause icon
+    icen.innerHTML = " ♫ ◼• ılıılıılılılıılııılı. 0"; // Changes to Pause icon
   } else {
     song.pause();
-    icen.innerHTML = "▶️"; // Changes back to Play icon
+    icen.innerHTML = " ♫ ▶• ılıılıılılılıılııılı. 0"; // Changes back to Play icon
   }
 }

@@ -26,21 +26,31 @@ html {
     color: white;
     background-color: black;
     transition: 0.2s;
+    box-shadow: 3px 5px rgb(58, 58, 58);
 }
 
 .navv {
-    text-align: center;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    width: 100%;
+    position: absolute;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 38px;
-    position: absolute;
+
     top: 20px;
     left: 0;
     right: 0;
     font-size: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+}
+.audiocontainer{
+    position: absolute;
+    right: 30px;
+}
+.navicon:hover{
+    box-shadow: 2.7px 5px 10px black;
+    transition: 0.2s;
 }
 .navicon {
   background: none;
@@ -71,7 +81,14 @@ html {
     margin-left: 100px;
     font-family: sans-serif;
     margin-bottom: 20px;
+    transition: transform 0.2s ease;
+    margin-top: 10px;
 }
+
+.nameh1:hover{
+    transform: translate(-13px, -13px);
+}
+
 .descr{
     font-weight: 1;
     font-size: 24px;
@@ -118,6 +135,12 @@ html {
     margin-left: 40px;
     margin-right: 100px;
     color: grey;
+    transition: transform 0.02s ease;
+}
+
+.page2text:hover{
+    background-color: rgba(0, 0, 0, 0.055);
+    box-shadow: -6.7px -2.6px 5px black;
 }
 
 .noim{
@@ -131,9 +154,19 @@ html {
     width: 200px;  
     padding: 20px; 
     background-color: #85b8cb;
-    margin-left: 100px;
-    align-items: center; 
+    margin-left: 110px;
     box-shadow: 10px 10px 0px black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: transform 0.2s ease;
+    /* border-radius: 10px; */
+}
+.songcard{
+    border-radius: 8px 0px 0px 8px;
+}
+
+.cards:hover{
+    box-shadow: -10px -10px 0px black;
+    transform: translate(-10px, -10px);
 }
 
 .cards img {
@@ -304,7 +337,13 @@ html {
     margin-top: 70px;
     gap: 20px;
     position: static; 
+    transition: transform 0.2s ease;
 }
+
+.lasticons a:hover{
+    transform: translate(12px , 12px);
+}
+
 .limg{
     width: 600px;
     margin-top: 50px;
