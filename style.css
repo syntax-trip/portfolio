@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* .topnav{
+    display: flex;
+    flex-direction: row;
+} */
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+}
+
+.topnav a{
+    color: black;
+    text-decoration: none;
+    margin: 30px;
+    position: relative;
+}
+.topnav a:hover{
+    color: white;
+    background-color: black;
+    transition: 0.2s;
+}
+.navicon{
+    
+}
+.navv {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 38px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.navicon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.firstimg{
+    display: block;
+    width: 629px;
+}
+
+.firstimgtext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstpagetext{
+    flex-direction: column;
+}
+.nameh1{
+    color: #85b8cb;
+    font-size: 55px;
+    margin-left: 100px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.descr{
+    font-weight: 1;
+    font-size: 24px;
+    margin-right: 20px;
+    /* font-family: "Goldman", sans-serif; */
+    font-family: "Inconsolata", monospace;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px;
+}
+.blackbreaker{
+    background-color: black;
+    display: block;
+    width: 100%;
+    height: 25px;
+    /* position: absolute */
+    clear: both;
+    position: relative;
+}
+
+.headpro{
+    font-family: "Goldman", sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;  
+    font-weight: bolder;
+    font-size: 36px;
+
+}
+
+.secotexts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.page2text{
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 100px;
+    color: grey;
+}
+
+.noim{
+    width: 200px;
+
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 200px;  
+    padding: 20px; 
+    background-color: #85b8cb;
+    margin-left: 100px;
+    align-items: center; 
+    box-shadow: 10px 10px 0px black;
+}
+
+.cards img {
+    width: 100%;             /* Image fills the container width */
+    height: auto;
+    margin-bottom: 15px;     /* Gap between image and text */
+}
+
+.card{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 40px;
+    position: absolute;
+}
+#noim1{
+    margin-top: 50px;
+}
+.imgsecpag{
+    float: right;
+    display: block;
+    width: 380px;
+    margin-top: 80px;
+}
+#noim2{
+    margin-bottom: 50px;
+}
+/* .card{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.catt{
+    margin-top: 170px;
+    width: 430px;
+}
+.sysl{
+    font-family: "Anek Bangla", sans-serif;
+}
+.skills{
+    font-family: "Funnel Display", sans-serif;
+}
+.blackback{
+    background-color: black;
+    color: black;
+}
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.skillss{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    font-size: 32px;
+    margin-right: 60px;
+}
+.blackback:hover{
+    background-color: rgba(0, 0, 0, 0.144);
+    cursor: pointer;
+    transition: 0.09s;
+}
+.songcard{
+    background-color: #85b8cb;
+    margin: 60px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+}
+#songcard{
+    display: inline-block;
+}
+.currelist{
+    font-family: "Jacquard 24", system-ui;
+}
+
+.imgicons{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: row;
+    gap: 15px;
+}
+.iconcoloumn{
+    display: flex;
+    flex-direction: column;
+}
+.currelist{
+    font-size: 43px;
+}
+.listening{
+    margin-left: 40px;
+}
+.runaw{
+    font-size: 30px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.kenyaw{
+    color: gray;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5px;
+}
+.e{
+    background-color: silver;
+    margin-right: 5px;
+    padding: 2px;
+}
+.state{
+    font-family: "Saira Stencil", sans-serif;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+.carsta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.cbox{
+    width: 290px;
+    height: 380px;
+}
+.cardcbox{
+    display: flex;
+    align-items: center;
+}
+.frmMain{
+    padding-bottom: 0px;
+}
+.sec4{
+    padding: 60px;
+}
+
+.reachme{
+    font-family: "Goldman", sans-serif;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.discord{
+    width: 130px;
+}
+.gmail{
+    width: 80px;
+    margin-top: 140px;
+}
+.instagram{
+    width: 110px;
+}
+.github{
+    width: 80px;
+    margin-top: 130px;
+}
+.lasticons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 70px;
+    gap: 20px;
+    position: static; 
+}
+.limg{
+    width: 600px;
+    margin-top: 50px;
+
+
+}
+.forms{
+    margin-right: 330px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* float: right;
+    position: absolute; */
+    background-color: none;
+    padding: 20px;
+    gap: 10px;
+    position: absolute;
+    float: none;
+}
+
+
+form input, form textarea {
+    background: rgba(0, 0, 0, 0.377);
+    border: 1px solid #c0392b;
+    color: white;
+    padding: 10px;
+    outline: none;
+    font-weight: bold;
+}
+
+form button {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.sec5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px;;
+    position: static;
+    float: none;
+    overflow: hidden;
+}
+
+.sec5-left {
+    display: flex;
+    flex-direction: column;
+}
+.sec5-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
