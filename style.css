@@ -407,3 +407,191 @@ form button {
     align-items: center;
     position: relative;
 }
+
+@media ( max-width: 1278px){
+    .state{
+        font-size: 26px;
+    }
+}
+@media (max-width: 1154px){
+    .navicon{
+        font-size: 0.9rem;
+    }
+    .imgsecpag{
+        width: 340px;
+    }
+    .skillss{
+        font-size: 28px;
+    }
+    .state{
+        font-size: 22px;
+        margin-right: 7px;
+    }
+}
+@media (max-width: 1125px){
+    .nameh1{
+        margin-left: 50px;
+    }
+    .card{
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .firstimg{
+        width: 627px;
+    }
+}
+@media (max-width: 1067px){
+    .navv{
+        font-size: 23px;
+    }
+    .nameh1{
+    font-size: 46px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+    margin-top: 10px;
+}
+    .firstimg{
+        width: 600px;
+    }
+    .descr{
+        font-weight: 0.6;
+        font-size: 23px;
+    }
+    .blackbreaker{
+        height: 19px;
+    }
+    .cards{
+    width: 150px;  
+    padding: 20px; 
+    }
+    .imgsecpag{
+        width: 310px;
+    }
+    .state{
+        font-size: 21px;
+        margin-right: 0px;
+    }
+    .catt{
+    margin-top: 170px;
+    width: 410px;
+    }
+    .skillss{
+        font-size: 26px;
+    }
+    form{
+        left: 50px;
+    }
+
+    .discord{
+    width: 110px;
+    }
+    .gmail{
+    width: 70px;
+    margin-top: 140px;
+    }
+    .instagram{
+        width: 90px;
+    }
+    .github{
+        width: 70px;
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 1024px){
+    .navicon{
+        font-size: 0.8rem;
+    }
+    .navv{
+        font-size: 20px;
+    }
+    .descr{
+        font-weight: 0.3;
+        font-size: 20px;
+    }
+    .firstimg{
+        width: 580px;
+    }
+}
+@media (max-width: 1031px){
+    .state{
+        font-size: 18px;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 970px){
+    .nameh1{
+    font-size: 40px;
+    margin-left: 60px;
+    }
+    form input, form textarea{
+        padding: 6x;
+    }
+}
+@media (max-width: 944px){
+    .firstimg{
+        width: 530px;
+    }
+    .card{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .cards{
+    width: 130px;  
+    padding: 14px; 
+    font-size: 17px;
+    }
+    .imgsecpag{
+        width: 290px;
+    }
+    .page2text{
+        margin-top: 80px;
+    }
+    .catt{
+    margin-top: 150px;
+    width: 390px;
+    }
+    .skillss{
+        font-size: 24px;
+    }
+
+
+    .songcard{
+        padding: 15px;
+    }
+
+
+    .cbox{
+    width: 230px;
+    height: 328px;
+    }
+    .currelist{
+    font-size: 33px;
+    }
+    .runaw{
+        font-size: 23px;
+    }
+    .rsp ,.ryt{
+        width: 60px;
+    }
+    .rimg{
+        width: 150px;
+    }
+    .navv{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 393px){
+    .firstimg{
+        width: 320px;
+    }
+    .navv{
+        font-size: 15px;
+    }
+    .topnav a{
+        margin: 5px;
+    }
+}
